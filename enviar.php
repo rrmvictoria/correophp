@@ -7,5 +7,5 @@ $destino="viki.203@hotmail.com";
   mail($destino,"contacto",$contenido);
     
     
-    header(location:gracias.html);
+    header("location:gracias.html");
     ?>
